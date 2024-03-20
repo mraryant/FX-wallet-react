@@ -1,0 +1,42 @@
+.fxst-wallet-container {
+  background-image: url(../assets/majorimg/waletbg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin: 40px 0px;
+}
+
+.left-section img {
+  width: 150px;
+}
+
+.btn1 {
+  background: linear-gradient(90deg, #6122ee 0%, #1956f9 43.9%, #0cd3d9 100%);
+  padding: 5px;
+  color: white;
+  border-radius: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px 5px 5px 5px;
+}
+.btn2 {
+  color: black;
+  background-color: white;
+  margin: 5px 5px 5px 5px;
+  font-size: medium;
+  border-radius: 10px;
+  font-weight: 700;
+  padding: 5px 10px;
+}
+.download-app {
+  background: linear-gradient(90deg, #6122ee 0%, #1956f9 43.9%, #0cd3d9 100%);
+  padding: 5px;
+  width: fit-content;
+  color: white;
+
+  border-radius: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
+}

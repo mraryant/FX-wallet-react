@@ -1,0 +1,100 @@
+.About-us-section {
+  width: 100%;
+  min-height: 100vh;
+  margin: 80px 0px;
+}
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background: #ffffff;
+}
+
+.left-grid-boxa img {
+  height: 80px;
+  width: 80px;
+}
+
+.leftgrid .p {
+  margin-bottom: 40px;
+}
+
+.left-grid-box2 {
+  /* padding: 20px; */
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.left-grid-box p {
+  font-family: fangsong;
+  font-size: large;
+  padding-bottom: 25px;
+}
+.left-grid-box h2 {
+  font-family: "__Inter_aaf875";
+  font-size: medium;
+  font-weight: 700;
+}
+
+.right-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  gap: 40px;
+}
+
+.bitcoin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* .right-grid-box-card{ 
+  background-color: #ebebfc;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 20px 50px 20px 50px;}
+.right-grid-box-card .profile-img{     display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+} */
+
+.card-info .h3 {
+  font-size: small;
+  color: white;
+  margin-top: 20px;
+}
+.card-buttons {
+  background: linear-gradient(216.56deg, #383fde 5.32%, #8444d5 94.32%);
+  width: 100%;
+  border-radius: 16px;
+  color: white;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  padding: 10px;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}

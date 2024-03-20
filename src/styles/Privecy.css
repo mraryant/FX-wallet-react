@@ -1,0 +1,71 @@
+.section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.bggrad-privecy {
+  background-image: url(../assets/majorimg/brivecy-bg.png);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.section h1 {
+  font-family: system-ui;
+  font-size: xxx-large;
+  font-weight: 700;
+}
+
+.section p {
+  display: flex;
+  font-family: ui-serif;
+  font-size: 20px;
+  height: 90px;
+  width: 70%;
+  align-items: center;
+}
+
+.safety {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 160vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.safety1 h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+.safety1 p {
+  font-size: larger;
+  font-weight: 400;
+  font-family: math;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+}
+
+.btn1 {
+  background: linear-gradient(90deg, #6122ee 0%, #1956f9 43.9%, #0cd3d9 100%);
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px 5px 5px 5px;
+}
+
+.safety2 {
+  max-width: 100%;
+  height: auto;
+}

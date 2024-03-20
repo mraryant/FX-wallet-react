@@ -1,0 +1,59 @@
+.features-section {
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  /* margin: 0 auto; */
+  text-align: center;
+}
+
+.features-grid {
+  display: flex;
+  justify-content: center; /* Center boxes horizontally */
+  flex-wrap: wrap; /* Allow boxes to wrap onto multiple lines */
+  gap: 20px; /* Add spacing between boxes */
+}
+
+.feature-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left; /* Align content within each box to the left */
+  padding: 20px;
+  padding-top: 0px;
+
+  border-radius: 5px;
+  width: 400px; /* Set a fixed width for each box */
+}
+
+.feature-box-button {
+  background: linear-gradient(90deg, #6122ee 0%, #1956f9 43.9%, #0cd3d9 100%);
+  padding: 5px;
+  color: white;
+  width: fit-content;
+  border-radius: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.feature-button {
+  width: fit-content;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #676464;
+  border-bottom: 1px solid #636161;
+  font-size: larger;
+  font-weight: 700;
+  color: blue;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

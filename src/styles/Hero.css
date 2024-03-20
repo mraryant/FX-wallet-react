@@ -1,0 +1,99 @@
+/* General Styles */
+.theam-grad {
+  background: linear-gradient(90deg, #6122ee 0%, #1956f9 43.9%, #0cd3d9 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+}
+/* Header Styles */
+.header-content {
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  padding: 0px 10px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-content: center;
+
+  /* padding: 150px 0px 0px 150px; */
+}
+.Hero-main {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url(../assets/Herobg.png); /* Light background color */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.headerheading {
+  font-size: xxx-large;
+  font-weight: 700;
+  color: rgb(20 21 22);
+}
+
+.header h1 {
+  font-size: 2.4rem;
+  color: #000000;
+  margin: 2vh;
+  display: flex;
+  align-items: center;
+  margin: 20px 0; /* Adjust top and bottom margin */
+}
+
+.header h1 span {
+  margin-left: 10px; /* Spacing between logo and text */
+  font-size: 0.8em; /* Adjust size of subtitle text */
+}
+
+.header-content p {
+  color: rgba(71, 85, 105, 1);
+  font-family: sans-serif;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Spacing between buttons */
+  /* margin-top: 20px; Margin for spacing */
+}
+
+.button1,
+.button2 {
+  /* Common button styles */
+  color: #fff; /* White button text */
+  padding: 10px 20px; /* Adjust padding for a more compact feel */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Indicate hover/click interaction */
+  transition: 0.2s ease; /* Smooth transition on hover */
+  font-weight: bold; /* Add some text weight for emphasis */
+}
+
+.button2 {
+  background-color: #cccccc; /* Light gray background color */
+}
+
+.header-buttons button:hover {
+  background-color: #222; /* Darken button background on hover */
+}
+
+/* Hero Image Styles */
+.headerdownimg {
+  display: flex;
+  /* width: 80%; */
+  justify-content: center;
+  align-items: center;
+}
+
+.headerdownimg img {
+  max-width: 100%; /* Ensure image scales responsively */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Add a subtle border radius to the image */
+}

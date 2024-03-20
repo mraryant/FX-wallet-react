@@ -1,0 +1,31 @@
+.works-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bggrad {
+  background: linear-gradient(112deg, #aed9ff 2.63%, #ffe99c 110.88%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.b01 {
+  background: linear-gradient(90deg, #6122ee 0%, #1956f9 43.9%, #0cd3d9 100%);
+  padding: 5px;
+  color: white;
+  border-radius: 0px;
+  padding-right: -6px;
+  margin: 4px 5px 5px 5px;
+  margin: 0px 5px 5px 5px;
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+}
