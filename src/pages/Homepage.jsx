@@ -19,8 +19,8 @@ const Homepage = () => {
             <Features />
             <Fxstwalet />
             <Works />
-            {/* <Privecy /> */}
-            {/* <Community /> */}
+            <Privecy />
+            <Community />
             {/* <Playstore /> */}
             <Footer />
         </>
