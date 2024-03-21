@@ -1,47 +1,50 @@
-.community{display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-    width: 100%;
-    height: 100%;}
-.community h1{font-family: auto;
-    font-weight: 700;
-    font-size: xx-large;}
-.community p{font-family: auto;
-    font-weight: 300;
-    font-size: medium;}
-
-.communitypart2{border: 1px solid rgb(219, 211, 211);
-    display: flex;
-    width: 500px;
-    height: 250px;
-    background: white;
-    border-radius: 30px;}
-.communitypart2 .c1{        padding: 40px;}
-.communitypart2 .c1 p {font-size: small;
-    font-weight: 200;
-    font-family: emoji;}
-.c1a{display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 30px;}
- 
-.name h1{font-family: emoji;
-    font-size: medium;
-    font-weight: 600;}
-.name p{font-size: small;
-    font-family: fangsong;
-    font-weight: 300;}
- 
-
-.box{ display: flex;
-flex-direction: row;
-gap: 25px;
-margin-top: 20px;
-margin-bottom: 20px;
+.community {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 30px; */
+  padding: 10px;
+  width: 100vw;
+  height: 100%;
+}
+.community h1 {
+  font-weight: 700;
+  font-size: xx-large;
+}
+.community p {
+  font-weight: 300;
+  font-size: medium;
 }
 
+.communitypart2 .c1 p {
+  font-size: small;
+  font-weight: 200;
+}
+.c1a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.name h1 {
+  font-size: medium;
+  font-weight: 600;
+}
+.name p {
+  font-size: small;
+
+  font-weight: 300;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  /* margin-top: 20px; */
+  /* margin-bottom: 20px; */
+}

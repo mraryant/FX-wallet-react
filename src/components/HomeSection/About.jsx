@@ -15,6 +15,7 @@ import btcgraph from "../../assets/microimg/btcgraph.png"
 import Profileabt from "../../assets/microimg/profileabt.png"
 
 import btcwhite from "../../assets/microimg/btcwhite.png"
+import abtarro from "../../assets/microimg/aboutArrow.png"
 
 
 const About = () => {
@@ -55,9 +56,9 @@ const About = () => {
 
                                     <img className="img" src={icon2} alt="Manage portfolio icon" />
                                     <div className="left-grid-box2">
-                                        <h2 className=" font-bold text-2xl" >Manage Your Portfolio</h2>
+                                        <h2 className=" font-bold text-2xl" >Recurring buys</h2>
                                         <p className=" text-gray-700" >
-                                            Buy and sell popular digital currencies, keep track of them in the one place.
+                                            Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly.
                                         </p>
                                     </div>
                                 </div>
@@ -66,9 +67,9 @@ const About = () => {
 
                                     <img className="img" src={icon3} alt="Manage portfolio icon" />
                                     <div className="left-grid-box2">
-                                        <h2 className=" font-bold text-2xl" >Manage Your Portfolio</h2>
+                                        <h2 className=" font-bold text-2xl" >Mobile apps</h2>
                                         <p className=" text-gray-700" >
-                                            Buy and sell popular digital currencies, keep track of them in the one place.
+                                            Stay on top of the markets with the Coinbase app for Android or iOS.
                                         </p>
                                     </div>
                                 </div>
@@ -80,7 +81,7 @@ const About = () => {
                     </div>
 
 
-                    <div className=" flex gap-5  flex-col justify-center items-center p-3 laptop:w-[100%] ">
+                    <div className=" relative flex gap-5  flex-col justify-center items-center p-3 laptop:w-[100%] ">
 
                         <div className="flex max-w-[400px] bg-gray-100 rounded-lg p-5 m-4 justify-center items-center flex-col gap-3  shadow-xl  hover:scale-[1.02]  transition-scale duration-300 ease-in-out" >
                             <div className="  font-medium   ">
@@ -93,6 +94,9 @@ const About = () => {
                                 <img src={imo4} className=" phone:w-[8vw] " alt="Sad icon" />
                                 <img src={imo5} className=" phone:w-[8vw] " alt="Sad icon" />
                             </div>
+                        </div>
+                        <div className=" h-[120px]  absolute left-10 top-40 laptop:hidden " >
+                            <img className=" h-full" src={abtarro} alt="" />
                         </div>
 
                         <div className="right-grid  ">

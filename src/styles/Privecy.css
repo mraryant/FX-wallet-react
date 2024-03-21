@@ -1,8 +1,9 @@
 .section {
-  height: 100%;
+  /* min-height: 100%; */
   width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: center;
   width: 100%;
   height: 100%;
@@ -12,17 +13,12 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.section h1 {
-  font-family: system-ui;
-  font-size: xxx-large;
-  font-weight: 700;
-}
 
 .section p {
   display: flex;
-  font-family: ui-serif;
-  font-size: 20px;
-  height: 90px;
+
+  font-size: 17px;
+
   width: 70%;
   align-items: center;
 }
@@ -34,25 +30,22 @@
   align-content: center;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-  width: 160vh;
+  /* line-height: normal; */
+  min-height: 50vh;
+  min-width: 80%;
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
   padding: 30px;
 }
 
-.safety1 h1 {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-}
 .safety1 p {
-  font-size: larger;
+  font-size: medium;
   font-weight: 400;
-  font-family: math;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  margin-right: 100px;
+  color: rgb(59, 58, 58);
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+  /* margin-top: 15px; */
+  /* margin-bottom: 10px; */
+  /* margin-right: 100px; */
 }
 
 .btn1 {

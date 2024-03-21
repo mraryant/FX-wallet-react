@@ -28,7 +28,7 @@ const Features = () => {
                             </div>
                             <h3 className=" font-bold text-2xl" >2Factor Authentication</h3>
                             <p>
-                                Lorem ipsum dolor sit ametcon sec tetur adipiscing elit sed do eiusmod tempor in cididod temunt..
+                                Enhance FX wallet security with 2FA. Protect user accounts. Enable secure login. Safeguard transactions. Enhance trust and reliability.
                             </p>
                             <button className='feature-box-button rounded-lg active:scale-[0.9] transition-scale duration-100 ease-in-out '>Get Started</button>
                         </div>
@@ -44,7 +44,7 @@ const Features = () => {
                             </div>
                             <h3 className=" font-bold text-2xl" >Efficient Support</h3>
                             <p>
-                                Lorem ipsum dolor sit ametcon sec tetur adipiscing elit sed do eiusmod tempor in cididod temunt..
+                                Offer prompt, knowledgeable assistance for seamless user experience. Prioritize customer satisfaction. Enhance user trust and loyalty with efficient support.
                             </p>
                             <button className='feature-box-button rounded-lg active:scale-[0.9] transition-scale duration-100 ease-in-out '>Get Started</button>
                         </div>
@@ -59,7 +59,7 @@ const Features = () => {
                             </div>
                             <h3 className=" font-bold text-2xl" >Crypto Settlements</h3>
                             <p>
-                                Lorem ipsum dolor sit ametcon sec tetur adipiscing elit sed do eiusmod tempor in cididod temunt..
+                                Facilitate seamless crypto settlements for quick, secure transactions. Ensure transparency and reliability in financial operations. Streamline digital asset exchanges.
                             </p>
                             <button className='feature-box-button rounded-lg active:scale-[0.9] transition-scale duration-100 ease-in-out '>Get Started</button>
                         </div>

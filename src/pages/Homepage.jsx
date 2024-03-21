@@ -19,10 +19,10 @@ const Homepage = () => {
             <Features />
             <Fxstwalet />
             <Works />
-            {/* <Privecy /> */}
+            <Privecy />
             {/* <Community /> */}
             {/* <Playstore /> */}
-            {/* <Footer/> */}
+            <Footer />
         </>
     )
 }
