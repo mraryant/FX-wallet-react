@@ -36,7 +36,7 @@ const Footer = () => {
                     <a href="#" className="unline  hover:underline" >Home </a>
                   </li>
                   <li className="  tablet:text-center  " >
-                    <a href="https://tailwindcss.com/" className="hover:underline">Service</a>
+                    <a href="" className="hover:underline">Service</a>
                   </li>
                 </ul>
               </div>
@@ -66,7 +66,8 @@ const Footer = () => {
           </div>
           <hr className="my-6  border-[#7E25EF] sm:mx-auto  *:lg:my-8" />
           <div className="sm:flex sm:items-center tablet:text-center sm:justify-between">
-            <span className="text-sm   sm:text-center  text-gray-700">© 2024 <a href="" className="hover:underline">FX wallet</a>. All Rights Reserved.
+            <span className="text-sm   sm:text-center  text-gray-700">©
+              2024 <a href="" className="hover:underline">FXST wallet</a>. All Rights Reserved.
             </span>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
 

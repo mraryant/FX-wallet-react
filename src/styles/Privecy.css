@@ -1,30 +1,36 @@
+.swiper-slide {
+  padding: 50px 5vmax 40px 5vmax;
+  margin: 0px !important;
+}
+.swiper-wrapper {
+  width: 100% !important;
+}
+
+@media (max-width: 550px) {
+  .swiper-slide {
+    padding: 50px 2vmax 40px 2vmax;
+    margin: 0px !important;
+  }
+}
 .section {
-  /* min-height: 100%; */
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
   width: 100%;
-  height: 100%;
 }
 .bggrad-privecy {
   background-image: url(../assets/majorimg/brivecy-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.section p {
-  display: flex;
-
-  font-size: 17px;
-
-  width: 70%;
-  align-items: center;
-}
-
 .safety {
   display: flex;
+  gap: 9vw;
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: center;
@@ -35,17 +41,7 @@
   min-width: 80%;
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
-  padding: 30px;
-}
-
-.safety1 p {
-  font-size: medium;
-  font-weight: 400;
-  color: rgb(59, 58, 58);
-  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
-  /* margin-top: 15px; */
-  /* margin-bottom: 10px; */
-  /* margin-right: 100px; */
+  padding: 30px 40px;
 }
 
 .btn1 {
@@ -60,5 +56,5 @@
 
 .safety2 {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
 }

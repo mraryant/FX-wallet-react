@@ -13,7 +13,7 @@ const Hero = () => {
                 <Navbar />
                 <div className="header-content  ">
                     <div className="headerheading">
-                        <h1> Secure Your Wallet With <span className="theam-grad" > FXST Wallet </span> </h1>
+                        <h1 className=" leading-tight " > Secure Your Wallet With <span className="theam-grad" > FXST Wallet </span> </h1>
                     </div>
                     <div className="heading-para max-w-[750px]  flex justify-center   ">
                         <p className="   ">
@@ -23,8 +23,8 @@ const Hero = () => {
                         </p>
                     </div>
                     <div className="header-buttons">
-                        <button className="button1 active:scale-[0.9] transition-scale duration-100 ease-in-out ">Download App</button>
-                        <button className="button2 active:scale-[0.9] transition-scale duration-100 ease-in-out ">Learn More</button>
+                        <button className="button1 active:scale-[0.9] transition-scale   hover:scale-[1.05]  transition-scale duration-300 ease-in-out ">Download App</button>
+                        <button className="button2 active:scale-[0.9] transition-scale hover:scale-[1.05]  transition-scale duration-300 ease-in-out">Learn More</button>
                     </div>
                     <div className="headerdownimg">
                         {/* Add Hero Images Here */}

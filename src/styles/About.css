@@ -1,11 +1,11 @@
 .About-us-section {
   width: 100%;
-  min-height: 100vh;
+  min-height: 70vh;
   margin: 80px 0px;
 }
 .grid-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   width: 50%;
   background: #ffffff;

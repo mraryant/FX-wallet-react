@@ -25,9 +25,9 @@ const About = () => {
 
             <section className="About-us-section   ">
 
-                <div className="flex gap-5   justify-between items-center laptop:flex-col " >
+                <div className="flex gap-5   justify-center items-center laptop:flex-col " >
 
-                    <div className="grid-container laptop:w-[100%] ">
+                    <div className="grid-container laptop:w-[100%] laptop:justify-center ">
                         <div className="left-grid flex flex-col gap-10  p-4 ">
                             <div className=" flex flex-col gap-3 laptop:items-center ">
 
@@ -41,7 +41,7 @@ const About = () => {
 
                             <div className=" flex flex-col gap-10    ">
 
-                                <div className="flex items-center gap-10 max-w-[600px] shadow-lg bg-gray-50 hover:bg-gray-100 hover:scale-[1.02]  transition-scale duration-300 ease-in-out  rounded-lg p-2 tablet:w-[100%] ">
+                                <div className="flex items-center gap-10 max-w-[600px] shadow-lg bg-gray-50 hover:bg-gray-100 hover:scale-[1.05]  transition-scale duration-300 ease-in-out  rounded-lg p-2 tablet:w-[100%] ">
 
                                     <img className="img" src={icon1} alt="Manage portfolio icon" />
                                     <div className="left-grid-box2">
@@ -52,7 +52,7 @@ const About = () => {
                                     </div>
                                 </div>
 
-                                <div className="flex items-center gap-10 max-w-[600px] shadow-lg bg-gray-50 hover:bg-gray-100 hover:scale-[1.02]  transition-scale duration-300 ease-in-out   rounded-lg p-2">
+                                <div className="flex items-center gap-10 max-w-[600px] shadow-lg bg-gray-50 hover:bg-gray-100 hover:scale-[1.05]  transition-scale duration-300 ease-in-out   rounded-lg p-2">
 
                                     <img className="img" src={icon2} alt="Manage portfolio icon" />
                                     <div className="left-grid-box2">
@@ -63,7 +63,7 @@ const About = () => {
                                     </div>
                                 </div>
 
-                                <div className="flex items-center gap-10 max-w-[600px] shadow-lg bg-gray-50 hover:scale-[1.02]  transition-scale duration-300 ease-in-out   rounded-lg p-2">
+                                <div className="flex items-center gap-10 max-w-[600px] shadow-lg bg-gray-50 hover:scale-[1.05]  transition-scale duration-300 ease-in-out   rounded-lg p-2">
 
                                     <img className="img" src={icon3} alt="Manage portfolio icon" />
                                     <div className="left-grid-box2">
@@ -83,7 +83,7 @@ const About = () => {
 
                     <div className=" relative flex gap-5  flex-col justify-center items-center p-3 laptop:w-[100%] ">
 
-                        <div className="flex max-w-[400px] bg-gray-100 rounded-lg p-5 m-4 justify-center items-center flex-col gap-3  shadow-xl  hover:scale-[1.02]  transition-scale duration-300 ease-in-out" >
+                        <div className="flex max-w-[400px] bg-gray-100 rounded-lg p-5 m-4 justify-center items-center flex-col gap-3  shadow-xl  hover:scale-[1.05]  transition-scale duration-300 ease-in-out" >
                             <div className="  font-medium   ">
                                 <h2>How Was Your Experience ?</h2>
                             </div>
@@ -100,7 +100,7 @@ const About = () => {
                         </div>
 
                         <div className="right-grid  ">
-                            <div className=" flex  min-w-fit justify-center items-center p-2 gap-4 bg-gray-100 rounded-lg  shadow-xl hover:scale-[1.02]  transition-scale duration-300 ease-in-out">
+                            <div className=" flex  min-w-fit justify-center items-center p-2 gap-4 bg-gray-100 rounded-lg  shadow-xl hover:scale-[1.05]  transition-scale duration-300 ease-in-out">
                                 <div className="bitcoin">
                                     <img
                                         src={btcimg}
@@ -125,7 +125,7 @@ const About = () => {
 
 
 
-                            <div className=" bg-gray-100 rounded-lg  shadow-xl hover:scale-[1.02]  transition-scale duration-300 ease-in-out  ">
+                            <div className=" bg-gray-100 rounded-lg  shadow-xl hover:scale-[1.05]  transition-scale duration-300 ease-in-out  ">
                                 <div className=" flex flex-col gap-3 items-center justify-center p-2 ">
 
                                     <img

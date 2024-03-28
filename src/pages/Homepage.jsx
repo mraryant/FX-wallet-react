@@ -21,7 +21,7 @@ const Homepage = () => {
             <Works />
             <Privecy />
             <Community />
-            {/* <Playstore /> */}
+            <Playstore />
             <Footer />
         </>
     )

@@ -24,10 +24,10 @@ const Fxstwalet = () => {
               <p className='left-section-p'> Buy, sell, and swap crypto, earn rewards, and discover  DApps, all inn one place </p>
 
               <div className="buttons">
-                <button className='btn1 active:scale-[0.9] transition-scale duration-100 ease-in-out'>Mobile</button>
-                <button className='btn2 active:scale-[0.9] transition-scale duration-100 ease-in-out'>Extension</button>
+                <button className='btn1 hover:scale-[1.05]  transition-scale   active:scale-[0.9] transition-scale duration-200 ease-in-out'>Mobile</button>
+                <button className='btn2 hover:scale-[1.05]  transition-scale   active:scale-[0.9] transition-scale duration-200 ease-in-out'>Extension</button>
               </div>
-              <button className="download-app rounded-lg active:scale-[0.9] transition-scale duration-100 ease-in-out">Download Mobile App</button>
+              <button className=" btn2 hover:scale-[1.05]  transition-scale  download-app rounded-lg active:scale-[0.9] transition-scale duration-200 ease-in-out">Download Mobile App</button>
             </div>
           </div>
 

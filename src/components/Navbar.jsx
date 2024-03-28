@@ -37,7 +37,7 @@ const Navbar = () => {
                         </div>
                     </a>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                        <button type="button" className=" active:scale-[0.9] transition-scale duration-100 ease-in-out  button1     phone:font-medium    text-sm first-line  phone:h-[40px]  ">Buy Token</button>
+                        <button type="button" className=" active:scale-[0.9] transition-scale hover:scale-[1.05]  transition-scale duration-300 ease-in-out  button1     phone:font-medium    text-sm first-line  phone:h-[40px]  ">Buy Token</button>
                         <button
                             onClick={toggleNav}
                             type="button"
@@ -70,31 +70,32 @@ const Navbar = () => {
                     >
                         <ul className=" navcar  flex     flex-col p-4   md:py-1.5   mt-4 font-medium border border-blue-300  md:rounded-[50px] rounded-lg   md:space-x-[2vmax] rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   text-white tablet:bg-gray-500    ">
 
-                            <li className='md:border-none flex items-center border-b-[1px]   border-gradient '>
-                                <a href="#hero-main" className=''>
-                                    <div className="  font-semibold   py-2 px-3 text-black tablet:text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0  dark:border-gray-700 hover:border-b-2 font-outfit   ">Home</div>
-                                </a>
-                            </li>
-                            {/* <li className='md:border-none flex items-center border-b-[1px] border-gradient'>
-                                <a href="#about-main">
-                                    <div className=" font-semibold   py-2 px-3 text-black tablet:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:border-b-2 font-outfit ">About Us</div>
+                            <a className='#' href="#hero-main"  >
+                                <li className='md:border-none tablet:hover:bg-gray-400 flex items-center border-b-[1px]   border-gradient '>
+
+                                    <div className="  font-semibold   py-2 px-3 text-black tablet:text-white  rounded  md:hover:bg-transparent md:p-0  dark:border-gray-700 hover:border-b-2 font-outfit   ">Home</div>
+                                </li>
+                            </a>
+                            {/* <li className='md:border-none tablet:hover:bg-gray-400 flex items-center border-b-[1px] border-gradient'>
+                                <a className='' href="#about-main">
+                                    <div className=" font-semibold   py-2 px-3 text-black tablet:text-white rounded  md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:border-b-2 font-outfit ">About Us</div>
                                 </a>
                             </li> */}
-                            <li className='md:border-none flex items-center border-b-[1px] border-gradient '>
-                                <a href="#Usecase-main">
-                                    <div className=" font-semibold   py-2 px-3 text-black tablet:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:border-b-2 font-outfit ">Feature</div>
-                                </a>
-                            </li>
-                            <li className='md:border-none flex items-center border-b-[1px] border-gradient '>
-                                <a href="#roadmap-main">
-                                    <div className=" font-semibold   py-2 px-3 text-black tablet:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:border-b-2 font-outfit ">Roadmap</div>
-                                </a>
-                            </li>
-                            <li className='md:border-none flex items-center border-b-[1px] border-gradient '>
-                                <a href="#toko-main">
-                                    <div className=" font-semibold   py-2 px-3 text-black tablet:text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:border-b-2 font-outfit ">Pricing</div>
-                                </a>
-                            </li>
+                            <a className='' href="#Features">
+                                <li className='md:border-none tablet:hover:bg-gray-400 flex items-center border-b-[1px] border-gradient '>
+                                    <div className=" font-semibold   py-2 px-3 text-black tablet:text-white rounded  md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:border-b-2 font-outfit ">Feature</div>
+                                </li>
+                            </a>
+                            <a className='About-Work' href="#roadmap-main">
+                                <li className='md:border-none tablet:hover:bg-gray-400 flex items-center border-b-[1px] border-gradient '>
+                                    <div className=" font-semibold   py-2 px-3 text-black tablet:text-white rounded  md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:border-b-2 font-outfit ">About Work</div>
+                                </li>
+                            </a>
+                            <a className='Get-App' href="#toko-main">
+                                <li className='md:border-none tablet:hover:bg-gray-400 flex items-center border-b-[1px] border-gradient '>
+                                    <div className=" font-semibold   py-2 px-3 text-black tablet:text-white rounded  md:hover:bg-transparent md:p-0       dark:border-gray-700 hover:border-b-2 font-outfit ">Get App</div>
+                                </li>
+                            </a>
                         </ul>
                     </div>
                 </div>

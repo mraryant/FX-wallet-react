@@ -2,14 +2,13 @@
 
 import "../../styles/Works.css"
 
-import logo from "../../assets/fxstwaletlogo.png"
 
 import rightimg2 from "../../assets/majorimg/walletRight2.png"
 const Works = () => {
   return (
     <>
 
-      <div className=" flex justify-center py-10 " >
+      <div id="About-Work" className=" flex justify-center py-10 " >
 
 
         <div className=" bggrad shadow-inner-top-bottom-lg shadow-2xl   py-10 rounded-3xl min-h-[100vh] w-[90vw]  flex items-center justify-evenly tablet:flex-col tablet:gap-20 ">
@@ -49,11 +48,11 @@ const Works = () => {
               </p>
 
 
-              <button className="download-app rounded-lg">Download Mobile App</button>
+              <button className="download-app rounded-lg hover:scale-[1.05] active:scale-[0.9]  transition-scale duration-300 ease-in-out">Download Mobile App</button>
             </div>
           </div>
 
-          <div className=" w-[40%] tablet:w-[90%]  ">
+          <div className=" w-[40%] flex justify-center tablet:w-[90%]  ">
             <img src={rightimg2} className="   h-[100%]   rounded-2xl" alt="Company logo" />
           </div>
 
