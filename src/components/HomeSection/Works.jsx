@@ -4,7 +4,7 @@ import "../../styles/Works.css"
 
 
 import rightimg2 from "../../assets/majorimg/walletRight2.png"
-// import rightimg2 from "../../assets/majorimg/mockup 1.sssvg"
+
 
 const Works = () => {
   return (
