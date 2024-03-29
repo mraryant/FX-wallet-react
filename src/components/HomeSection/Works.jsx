@@ -4,6 +4,8 @@ import "../../styles/Works.css"
 
 
 import rightimg2 from "../../assets/majorimg/walletRight2.png"
+// import rightimg2 from "../../assets/majorimg/mockup 1.svg"
+
 const Works = () => {
   return (
     <>
@@ -15,7 +17,7 @@ const Works = () => {
 
           <div id="left " className="  w-[50%] tablet:w-[90%] h-[100%]   flex  justify-center " >
 
-            <div className=" w-full h-[100%] p-10 flex gap-5 flex-col justify-center shadow-2xl rounded-3xl   ">
+            <div className=" w-full h-[100%] p-10 phone:px-5 flex gap-5 flex-col justify-center shadow-2xl rounded-3xl   ">
 
 
               <h1 className=" font-bold text-4xl">How This Works</h1>
@@ -23,27 +25,27 @@ const Works = () => {
 
               <ul className="list-disc">
                 <li>
-                  First, download the app from the App Store or Google Play Store and install <br />
+                  First, download the app from the App Store or Google Play Store and install
                   it on your device.
                 </li>
                 <li>
-                  Once installed, open the app and create your account by following <br />
+                  Once installed, open the app and create your account by following
                   the simple registration process.
                 </li>
                 <li>
 
-                  Next, securely link your bank account or credit/debit card to your<br />
+                  Next, securely link your bank account or credit/debit card to your
                   FXST Wallet to easily deposit funds.
                 </li>
               </ul>
 
               <p>
-                Now {" you're"} ready to start managing your crypto assets! Simply navigate<br />
-                through the user-friendly interface to buy, sell, and trade cryptocurrencies <br />
-                with ease. You can also send and receive digital currencies effortlessly,<br />
-                making transactions seamless and hassle-free. With built-in security <br />
-                measures and intuitive controls, FXST Wallet ensures that your crypto journey <br />
-                is both safe and convenient. Start using FXST Wallet today and take control of <br />
+                Now {" you're"} ready to start managing your crypto assets! Simply navigate
+                through the user-friendly interface to buy, sell, and trade cryptocurrencies
+                with ease. You can also send and receive digital currencies effortlessly,
+                making transactions seamless and hassle-free. With built-in security
+                measures and intuitive controls, FXST Wallet ensures that your crypto journey
+                is both safe and convenient. Start using FXST Wallet today and take control of
                 your digital finances like  never before!
               </p>
 
@@ -66,27 +68,27 @@ const Works = () => {
 
           <ul>
             <li>
-              First, download the app from the App Store or Google Play Store and install <br />
+              First, download the app from the App Store or Google Play Store and install 
               it on your device.
             </li>
             <li>
-              Once installed, open the app and create your account by following <br />
+              Once installed, open the app and create your account by following 
               the simple registration process.
             </li>
             <li>
 
-              Next, securely link your bank account or credit/debit card to your<br />
+              Next, securely link your bank account or credit/debit card to your
               FXST Wallet to easily deposit funds.
             </li>
           </ul>
 
           <p>
-            Now {" you're"} ready to start managing your crypto assets! Simply navigate<br />
-            through the user-friendly interface to buy, sell, and trade cryptocurrencies <br />
-            with ease. You can also send and receive digital currencies effortlessly,<br />
-            making transactions seamless and hassle-free. With built-in security <br />
-            measures and intuitive controls, FXST Wallet ensures that your crypto journey <br />
-            is both safe and convenient. Start using FXST Wallet today and take control of <br />
+            Now {" you're"} ready to start managing your crypto assets! Simply navigate
+            through the user-friendly interface to buy, sell, and trade cryptocurrencies 
+            with ease. You can also send and receive digital currencies effortlessly,
+            making transactions seamless and hassle-free. With built-in security 
+            measures and intuitive controls, FXST Wallet ensures that your crypto journey 
+            is both safe and convenient. Start using FXST Wallet today and take control of 
             your digital finances like  never before!
           </p>
           <div className="b01">Get Started</div>
